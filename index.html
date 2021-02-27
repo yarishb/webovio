@@ -1,0 +1,336 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>webovio</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <script type="text/javascript" src="./js/main.js"></script>
+  <script src="js/map.js"></script>
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+<body>
+  <div class="header">
+    <div class="header_bg background"></div>
+    <div class="header_content">
+      <div class="logo">
+        <div class="logo_bg"></div>
+        <div class="logo_text">UNITY</div>
+      </div>
+      <div class="social_medias">
+        <a class="link" href="https://t.me/yarisheo"><i class="fab fa-telegram social_icon_f"></i></a>
+        <a class="link" href="https://github.com/yarishb"><i class="fab fa-github social_icon"></i></a>
+        <div class="separator_center">
+          <div class="separator"></div>
+        </div>
+      </div>
+      <div class="header_moto">It started with an idea</div>
+      <div class="button_center">
+        <div class="header_button">DISCOVER</div>
+      </div>
+    </div>
+  </div>
+  <div class="slider">
+      <div class="slider_choose">
+        <div class="slider_choose_left slider_chosen" onclick="prevSlide()">
+          <i class="fas fa-chevron-left"></i>
+        </div>
+        <div class="slider_choose_right slider_chosen" onclick="nextSlide()">
+          <i class="fas fa-chevron-right"></i>
+        </div>
+      </div>
+      <div class="item first_slide">
+        <div class="first_slide_template slide_template">
+          <div class="slide_img_bg"></div>
+          <img class="slide_img slide_img_1 slide_img_in" src="img/mac.png" alt="mac"/>
+        </div>
+        <div class="item second_slide">
+        <div class="first_slide_template slide_template">
+          <img class="slide_img slide_img_2 slide_img_out" src="img/snickers.png" alt="fast"/>
+        </div>
+        </div>
+        <div class="item second_slide">
+          <div class="first_slide_template slide_template">
+            <img style="display: none" class="slide_img slide_img_3 slide_img_out" src="img/watches.png" alt="quality"/>
+          </div>
+        </div>
+        <div class="slide_text slide_text_1">
+          <div class="slide_header transition">
+            Services
+          </div>
+          <div class="slide_main transition">
+              We bring a</br> wonderful <p1 style="color: #ff5617">artistic</p1>
+              sense to project
+          </div>
+          <div class="slide_bottom transition">
+            Our passion is to create solutions which could give
+            that extra value to your product, service or to business
+            in general.
+          </div>
+        </div>
+        </div>
+    <div class="slider_buttons">
+      <div class="slider_button_1 slider_button active" onclick="slider(1)">1</div>
+      <div class="slider_button_2 slider_button" onclick="slider(2)">2</div>
+      <div class="slider_button_3 slider_button" onclick="slider(3)">3</div>
+    </div>
+  </div>
+
+  <div class="slider_about background">
+    <div class="slider_about__switch">
+      <i style="margin-bottom: 1rem;" class="fas fa-arrow-up switch_arrow" onclick="prevSlideAbout()"></i>
+      <div class="slider-about__switcher slider-about__switcher_1" onclick="switcherAbout(1)">01</div>
+      <div class="slider-about__switcher slider-about__switcher_2 switcher_active" onclick="switcherAbout(2)">02</div>
+      <div class="slider-about__switcher slider-about__switcher_3" onclick="switcherAbout(3)">03</div>
+      <i style="margin-top: 1rem;" class="fas fa-arrow-down switch_arrow" onclick="nextSlideAbout()"></i>
+    </div>
+    <div class="slider-about__text slide-about__1 slider-about__text_up">
+      <div class="slider-about__header">
+        Team lead
+      </div>
+      <div class="slider-about__main">
+        Hi! I'm team lead.
+        I've working as a web developer
+        for more than 8 years and now manage
+        all the processes in our company.
+      </div>
+      <div class="slider-about__signature">
+        <div class="slider-about__signature-line"></div>
+        <img src="./img/signature-1.png" alt="signature" class="slider-about__signature-item" />
+      </div>
+    </div>
+    <div class="slider-about__text slide-about__2">
+      <div class="slider-about__header">
+        Designer
+      </div>
+      <div class="slider-about__main">
+        Hello, World! I
+        am a freelance graphic designer and
+        website developer who provides full-service
+        website management and WordPress specialization.
+        I recently provided website design services to the businesses below
+      </div>
+      <div class="slider-about__signature">
+        <div class="slider-about__signature-line"></div>
+        <img src="./img/signature-2.png" alt="signature" class="slider-about__signature-item" />
+      </div>
+    </div>
+      <div class="slider-about__text slide-about__3 slider-about__text_down">
+          <div class="slider-about__header">
+            Developer
+          </div>
+        <div class="slider-about__main">
+          Hey! I am software
+          engineer and i work on all of
+          the backend and algorithms of out projects.
+          Recently, i've covered 3 new projects in our team.
+        </div>
+        <div class="slider-about__signature">
+          <div class="slider-about__signature-line"></div>
+          <img src="./img/signature-3.png" alt="signature" class="slider-about__signature-item" />
+        </div>
+      </div>
+  </div>
+  <div class="projects">
+      <div class="project-text">
+        <div class="projects-text__header">
+          What we have done.
+        </div>
+        <div class="projects-text__desc">
+          Our passion is to create solutions which could <p1 style="color: #ff5617">give that extra value</p1> to your product,</br>
+          service or to business in general.
+        </div>
+      </div>
+      <div class="projects-items">
+        <div class="projects__items items__left">
+          <img src="./img/projects/project-1.png" alt="project" class="project-item"/>
+          <div class="projects-items__project2">
+            <div class="project-items_about">
+              <div class="project-items_about_block">
+                <div class="project-items_about_block__header first_el">
+                  Green
+                </div>
+                <div class="project-items_about_block__header second_el">
+                  Jasmine
+                </div>
+                <div class="project-items_about_block__desc">
+                  Web Design / Development
+                </div>
+              </div>
+            </div>
+            <img src="./img/projects/project-2.png" alt="project" class="project-item"/>
+          </div>
+          <img src="./img/projects/project-3.png" alt="project" class="project-item"/>
+        </div>
+        <div class="projects__items items__right">
+          <img src="./img/projects/project-4.png" alt="project" class="project-item"/>
+          <img src="./img/projects/project-5.png" alt="project" class="project-item"/>
+          <img src="./img/projects/project-6.png" alt="project" class="project-item"/>
+        </div>
+      </div>
+    </div>
+    <div class="why-us">
+      <div class="why-us__header">
+        Your money</br>
+        is yours, we don't Take a cut.
+      </div>
+      <div class="why-us__desc">
+        Our passion is to <p1 style="color: #ff5617">create solutions</p1> which could give that extra value to your product,</br>
+        service or to business in general.
+      </div>
+      <div class="separator_center">
+        <div class="separator"></div>
+      </div>
+      <div class="why-us__items">
+        <div class="why-us__item">
+            <div class="why-us__item-text">
+              <i class="fas fa-pencil-alt why-us__img"></i>
+              <div class="why-us_header">
+                Design
+              </div>
+              <div class="why-us__item__desc">
+                brings a wonderful artistic sense to each project, and he</br>
+                balances that with a strong attention to</br>
+                the user’s need
+              </div>
+            </div>
+        </div>
+        <div class="why-us__item">
+          <div class="why-us__item-text">
+            <i class="fas fa-cogs why-us__img"></i>
+            <div class="why-us_header">
+              Development
+            </div>
+            <div class="why-us__item__desc">
+              Plus, he’s kind and understanding as he works with</br>
+              clients who might not necessarily have technical</br>
+              knowledge of websites
+            </div>
+          </div>
+        </div>
+        <div class="why-us__item">
+          <div class="why-us__item-text">
+            <i class="fas fa-tv why-us__img"></i>
+            <div class="why-us_header">
+              Deployment
+            </div>
+            <div class="why-us__item__desc">
+              Siamo persone con un pensiero fisso. E’ il web, è</br>
+              tecnologia. Lo amiamo, lo conosciamo da</br>
+              professionisti
+            </div>
+          </div>
+        </div>
+        <div class="why-us__item">
+          <div class="why-us__item-text">
+            <i class="fab fa-uikit why-us__img"></i>
+            <div class="why-us_header">
+              Ui / ux
+            </div>
+            <div class="why-us__item__desc">
+              Chiedigli di darti di più. Prima di far entrare internet</br>
+              nel tuo mondo, digli di prendere la forma che</br>
+              assomiglia a te.
+            </div>
+          </div>
+        </div>
+        <div class="why-us__item">
+          <div class="why-us__item-text">
+            <i class="fas fa-mobile-alt why-us__img"></i>
+            <div class="why-us_header">
+              Ios development
+            </div>
+            <div class="why-us__item__desc">
+              Noi siamo dalla tua parte e lavoriamo per questo. Non</br>
+              solo per te, ma per noi. Perché anche se siamo</br>
+              dipendenti da tecnologia siamo
+            </div>
+          </div>
+        </div>
+        <div class="why-us__item">
+          <div class="why-us__item-text">
+            <i class="fas fa-chart-bar why-us__img"></i>
+            <div class="why-us_header">
+              Marketing
+            </div>
+            <div class="why-us__item__desc">
+              Maecenas vestibulum elit a egestas viverra. Nullam</br>
+              malesuada erat eu nulla scelerisque, at hendrerit ex</br>
+              interdum. Aliquam pretium.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="map_block">
+      <div class="map_bg"></div>
+      <div id="map"></div>
+    </div>
+
+    <div class="clients">
+      <div class="clients__header why-us__header">
+        We love our clients
+      </div>
+      <div class="clients__desc why-us__desc">
+        We take provide in delivering Intelligent <p1 style="color: #ff5617">Designs and Engaging Experiences</p1> for</br>
+        clients all over the World.
+      </div>
+      <div class="separator_center">
+        <div class="separator"></div>
+      </div>
+      <div class="clients_thing">
+        <div class="clients_thing_text transition">
+          “Thanks so much for the awesome customer </br>
+          service. So many companies, large and small, </br>
+          have a lot to learn from you. Great job!”
+        </div>
+        <div class="clients_thing_name transition">
+          <div class="clients_thing_name-name">
+            REBECCA MATTHEWS
+          </div>
+      </div>
+      <div class="clients_thing">
+        <div class="clients_thing_text"></div>
+        <div class="clients_thing_name"></div>
+      </div>
+      <div class="clients_thing">
+        <div class="clients_thing_text"></div>
+        <div class="clients_thing_name"></div>
+      </div>
+      <div class="clients_thing">
+        <div class="clients_thing_text"></div>
+        <div class="clients_thing_name"></div>
+      </div>
+      <div class="clients_photos">
+        <img class="clients_photo photo_0 photo_active" src="./img/clients/person4.png" alt="clients_photo" onclick="reviews(0)"/>
+        <img class="clients_photo photo_1" src="./img/clients/person3.png" alt="clients_photo" onclick="reviews(1)"/>
+        <img class="clients_photo photo_2" src="./img/clients/person2.png" alt="clients_photo" onclick="reviews(2)"/>
+        <img class="clients_photo photo_3" src="./img/clients/person1.png" alt="clients_photo" onclick="reviews(3)"/>
+      </div>
+    </div>
+
+      <img class="coworkers" src="./img/coworkers.png" alt="coworkers">
+      <img class="companies" src="./img/companies.png" alt="companies">
+
+      <div class="footer">
+        <div class="rules">
+          <div class="rights rules__el">© Unity. All Rights Reserved</div>
+          <div class="terms rules__el">Terms of use</div>
+          <div class="policy rules__el">Privacy policy </div>
+        </div>
+        <div class="designed">
+          Design by Pixelzeesh
+        </div>
+      </div>
+      <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBAwUuxK3ei9nIOpFFBaURcBBxeOMd_6xg&callback=initMap&libraries=&v=weekly"
+    ></script>
+</body>
+</html>

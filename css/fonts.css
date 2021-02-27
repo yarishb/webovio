@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Poppins";
+  font-weight: 500;
+  src:  url("../fonts/Poppins/Poppins-Regular.ttf");
+  format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 800;
+  src:  url("../fonts/Poppins/Poppins-Bold.ttf");
+  format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 700;
+  src:  url("../fonts/Poppins/Poppins-Medium.ttf");
+  format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 1000;
+  src:  url("../fonts/Poppins/Poppins-ExtraBold.ttf");
+  format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 200;
+  src:  url("../fonts/Poppins/Poppins-Light.ttf");
+  format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-weight: 900;
+  src:  url("../fonts/Poppins/Semi-Bold.ttf");
+  format('opentype');
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 500;
+  src:  url("../fonts/Roboto/Roboto-Regular.ttf")
+  format('opentype');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-weight: 800;
+  src:  url("../fonts/Roboto/Roboto-Bold.ttf")
+  format('opentype');
+  font-display: swap;
+}
