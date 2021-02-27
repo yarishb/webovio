@@ -258,7 +258,7 @@ html {
   position: relative;
   width: 100%;
   height: 30rem;
-  background-image: url('../img/slider-about-bg.png');
+  background-image: url('../img/slider-about-bg.webp');
   color: white;
   font-family: Poppins, sans-serif;
   overflow: hidden;
